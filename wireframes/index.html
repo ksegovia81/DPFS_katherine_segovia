@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframes - App Reducción Desperdicio</title>
+ <link rel="stylesheet" href="styles.css">   
+</head>
+<body>
+    <div class="wireframe-container">
+        <h1 class="title">Wireframes - App Reducción Desperdicio de Alimentos</h1>
+        <p class="subtitle">Diseño móvil estilo Too Good To Go • 5 pantallas principales</p>
+        
+        <div class="screens-grid">
+            <!-- Pantalla 1: Inicio -->
+            <div class="phone">
+                <div class="screen-label">1. PANTALLA DE INICIO</div>
+                <div class="notch"></div>
+                
+                <div class="header">
+                    <div class="logo">FoodRescue</div>
+                    <div class="location">
+                        <div class="icon">📍</div>
+                        Ciudad
+                    </div>
+                    <div class="icon-only"></div>
+                </div>
+                
+                <div class="search-bar">
+                    <div class="icon">🔍</div>
+                    Buscar productos...
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-chip">Cerca de ti</div>
+                    <div class="filter-chip">Descuento >50%</div>
+                    <div class="filter-chip">Termina hoy</div>
+                </div>
+                
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="badge">Quedan 3</div>
+                            IMG
+                        </div>
+                        <div class="product-info">
+                            <div class="restaurant-name">Panadería Central</div>
+                            <div class="product-name">Mix de panes y dulces</div>
+                            <div class="price">
+                                <span class="price-old">$8.00</span>
+                                <span class="price-new">$3.00</span>
+                            </div>
+                            <div class="distance">📍 0.5 km</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="badge">Quedan 2</div>
+                            IMG
+                        </div>
+                        <div class="product-info">
+                            <div class="restaurant-name">Café Verde</div>
+                            <div class="product-name">Sándwiches frescos</div>
+                            <div class="price">
+                                <span class="price-old">$6.00</span>
+                                <span class="price-new">$2.50</span>
+                            </div>
+                            <div class="distance">📍 0.8 km</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="badge">Quedan 5</div>
+                            IMG
+                        </div>
+                        <div class="product-info">
+                            <div class="restaurant-name">Frutería Orgánica</div>
+                            <div class="product-name">Frutas y verduras</div>
+                            <div class="price">
+                                <span class="price-old">$12.00</span>
+                                <span class="price-new">$4.00</span>
+                            </div>
+                            <div class="distance">📍 1.2 km</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="badge">Quedan 1</div>
+                            IMG
+                        </div>
+                        <div class="product-info">
+                            <div class="restaurant-name">Pizzería Roma</div>
+                            <div class="product-name">Pizza del día</div>
+                            <div class="price">
+                                <span class="price-old">$15.00</span>
+                                <span class="price-new">$5.00</span>
+                            </div>
+                            <div class="distance">📍 0.3 km</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bottom-nav">
+                    <div class="nav-item active">
+                        <div class="nav-icon"></div>
+                        Inicio
+                    </div>
+                    <div class="nav-item">
+                        <div class="nav-icon"></div>
+                        Favoritos
+                    </div>
+                    <div class="nav-item">
+                        <div class="nav-icon"></div>
+                        Pedidos
+                    </div>
+                    <div class="nav-item">
+                        <div class="nav-icon"></div>
+                        Perfil
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla 2: Detalles del producto -->
+            <div class="phone">
+                <div class="screen-label">2. DETALLES DEL PRODUCTO</div>
+                <div class="notch"></div>
+                
+                <div class="product-detail-image">
+                    <div class="back-button">←</div>
+                    <div class="heart-button">♡</div>
+                    <div class="badge">Quedan 3</div>
+                    IMAGEN DEL PRODUCTO
+                </div>
+                
+                <div class="product-details">
+                    <div class="restaurant-title">Panadería Central</div>
+                    <div class="rating">⭐⭐⭐⭐⭐ 4.8 (124 reseñas)</div>
+                    <div class="description">
+                        Mix sorpresa de panes artesanales y dulces frescos del día. Incluye variedad de productos horneados.
+                    </div>
+                    
+                    <div class="pickup-info">
+                        <div class="pickup-title">Horario de recogida</div>
+                        <div class="pickup-time">Hoy 18:00 - 20:00</div>
+                    </div>
+                    
+                    <div style="margin-bottom: 12px; color: #666; font-size: 12px;">
+                        📍 Av. Principal 123, Centro<br>
+                        🚶 A 0.5 km (6 min caminando)
+                    </div>
+                    
+                    <div class="price-section">
+                        <div>
+                            <div class="price-old" style="font-size: 14px;">$8.00</div>
+                            <div class="price-large">$3.00</div>
+                        </div>
+                        <div class="discount-badge">63% OFF</div>
+                    </div>
+                    
+                    <button class="rescue-button">RESCATAR AHORA</button>
+                    
+                    <div style="margin-top: 12px; font-size: 10px; color: #666; text-align: center;">
+                        Recogida obligatoria en horario indicado<br>
+                        Cancelación gratuita hasta 2 horas antes
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla 3: Carrito -->
+            <div class="phone">
+                <div class="screen-label">3. CARRITO DE COMPRAS</div>
+                <div class="notch"></div>
+                
+                <div class="header">
+                    <div style="font-size: 18px;">←</div>
+                    <div style="font-weight: 600; font-size: 16px;">Carrito</div>
+                    <div></div>
+                </div>
+                
+                <div class="cart-content">
+                    <div class="cart-item">
+                        <div class="cart-item-image">IMG</div>
+                        <div class="cart-item-info">
+                            <div class="cart-item-name">Mix de panes y dulces</div>
+                            <div class="cart-item-restaurant">Panadería Central</div>
+                            <div class="cart-item-time">Recogida: 18:00 - 20:00</div>
+                        </div>
+                        <div class="cart-item-price">$3.00</div>
+                        <div class="delete-button">×</div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="cart-item-image">IMG</div>
+                        <div class="cart-item-info">
+                            <div class="cart-item-name">Sándwiches frescos</div>
+                            <div class="cart-item-restaurant">Café Verde</div>
+                            <div class="cart-item-time">Recogida: 17:30 - 19:00</div>
+                        </div>
+                        <div class="cart-item-price">$2.50</div>
+                        <div class="delete-button">×</div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="cart-item-image">IMG</div>
+                        <div class="cart-item-info">
+                            <div class="cart-item-name">Frutas y verduras</div>
+                            <div class="cart-item-restaurant">Frutería Orgánica</div>
+                            <div class="cart-item-time">Recogida: 16:00 - 18:00</div>
+                        </div>
+                        <div class="cart-item-price">$4.00</div>
+                        <div class="delete-button">×</div>
+                    </div>
+                </div>
+                
+                <div class="order-summary">
+                    <div class="summary-line">
+                        <span>Subtotal</span>
+                        <span>$9.50</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Impuestos</span>
+                        <span>$0.95</span>
+                    </div>
+                    <div class="summary-line summary-total">
+                        <span>Total</span>
+                        <span>$10.45</span>
+                    </div>
+                    
+                    <button class="primary-button">PROCEDER AL PAGO</button>
+                    
+                    <div style="text-align: center; margin-top: 8px; font-size: 10px; color: #666;">
+                        ⚠️ Recordatorio: Recoge tus pedidos en horario
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla 4: Registro -->
+            <div class="phone">
+                <div class="screen-label">4. REGISTRO DE USUARIO</div>
+                <div class="notch"></div>
+                
+                <div class="header">
+                    <div style="font-size: 18px;">←</div>
+                    <div style="font-weight: 600; font-size: 16px;">Crear cuenta</div>
+                    <div></div>
+                </div>
+                
+                <div class="auth-container">
+                    <div class="auth-logo">🌱</div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Nombre completo</label>
+                        <input type="text" class="form-input" placeholder="Ingresa tu nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" placeholder="tu@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Contraseña</label>
+                        <input type="password" class="form-input" placeholder="Mínimo 8 caracteres">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Confirmar contraseña</label>
+                        <input type="password" class="form-input" placeholder="Repite tu contraseña">
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <div class="checkbox"></div>
+                        <label class="checkbox-label">Acepto los términos y condiciones</label>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <div class="checkbox"></div>
+                        <label class="checkbox-label">Quiero recibir ofertas por email</label>
+                    </div>
+                    
+                    <button class="primary-button">CREAR CUENTA</button>
+                    
+                    <div class="divider">o</div>
+                    
+                    <button class="social-button">📱 Continuar con Google</button>
+                    <button class="social-button">📘 Continuar con Facebook</button>
+                    
+                    <div class="auth-link">
+                        ¿Ya tienes cuenta? <strong>Inicia sesión</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla 5: Inicio de sesión -->
+            <div class="phone">
+                <div class="screen-label">5. INICIO DE SESIÓN</div>
+                <div class="notch"></div>
+                
+                <div class="header">
+                    <div style="font-size: 18px;">←</div>
+                    <div style="font-weight: 600; font-size: 16px;">Iniciar sesión</div>
+                    <div></div>
+                </div>
+                
+                <div class="auth-container">
+                    <div class="auth-logo">🌱</div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" placeholder="tu@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label
