@@ -1,0 +1,31 @@
+<%- include('../partials/head', { title: product.name }) %>
+<%- include('../partials/header', { user, cartCount }) %>
+
+<main class="container my-4">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="<%= product.image %>" class="img-fluid rounded" alt="<%= product.name %>">
+        </div>
+        <div class="col-md-6">
+            <h1><%= product.name %></h1>
+            <p class="text-muted"><%= product.restaurant %></p>
+            
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <span class="text-decoration-line-through text-muted me-2">$<%= product.originalPrice %></span>
+                    <span class="fw-bold text-success">$<%= product.price %></span>
+                </div>
+                <span class="badge bg-danger">Quedan <%= product.stock %></span>
+            </div>
+            
+            <form action="/products/cart" method="POST">
+                <input type="hidden" name="productId" value="<%= product.id %>">
+                <button type="submit" class="btn btn-success btn-lg w-100 mb-3">
+                    Añadir al carrito
+                </button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>
