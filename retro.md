@@ -63,14 +63,13 @@ Retrospectiva - Sprint 2
 Aspectos positivos
 
 1.Completamos todas las páginas requeridas según los wireframes del Sprint 1
-2.Implementamos responsive design satisfactoriamente con Bootstrap
-3.Configuramos correctamente la estructura básica de Express
-4. Mantenimos buena organización con GitHub Projects
+2.Configuramos correctamente la estructura básica de Express
+3. Mantenimos bBuena organización con GitHub Projects
 
 Qué mejorar
 
 1. Documentación del código: Necesitamos más comentarios explicativos
-3. Consistencia de estilos: Mejorar guía de estilos compartida
+2. Consistencia de estilos: Mejorar guía de estilos compartida
 
 Logros destacados
 
