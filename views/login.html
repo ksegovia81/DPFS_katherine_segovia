@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión | FoodRescue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="/">FoodRescue</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-5">
+                        <div class="text-center mb-5">
+                            <h2 class="fw-bold mb-3">Iniciar sesión</h2>
+                            <p class="text-muted">Accede a tu cuenta para rescatar comida</p>
+                        </div>
+                        
+                        <form>
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="loginEmail" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="loginPassword" required>
+                                <div class="text-end">
+                                    <a href="#" class="text-success">¿Olvidaste tu contraseña?</a>
+                                </div>
+                            </div>
+                            
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">
+                                    Recordar mi cuenta
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-success btn-lg w-100 mb-3">
+                                Iniciar sesión
+                            </button>
+                            
+                            <div class="text-center">
+                                <p class="text-muted">¿No tienes cuenta? <a href="/register" class="text-success">Regístrate</a></p>
+                            </div>
+                            
+                            <div class="position-relative my-4">
+                                <hr>
+                                <span class="position-absolute top-50 start-50 translate-middle px-2 bg-white text-muted">o inicia sesión con</span>
+                            </div>
+                            
+                            <div class="row g-2">
+                                <div class="col">
+                                    <button type="button" class="btn btn-outline-secondary w-100">
+                                        <i class="fab fa-google me-2"></i>Google
+                                    </button>
+                                </div>
+                                <div class="col">
+                                    <button type="button" class="btn btn-outline-secondary w-100">
+                                        <i class="fab fa-facebook-f me-2"></i>Facebook
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">© 2023 FoodRescue - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
