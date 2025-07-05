@@ -57,3 +57,21 @@ Objetivos para Sprint 2:
 - Mantener el foco en la funcionalidad de la aplicación
 - Aplicar los aprendizajes del curso
 - Crear un flujo de trabajo eficiente con el tablero de tareas
+
+Retrospectiva - Sprint 2
+
+Aspectos positivos
+
+1.Completamos todas las páginas requeridas según los wireframes del Sprint 1
+2.Implementamos responsive design satisfactoriamente con Bootstrap
+3.Configuramos correctamente la estructura básica de Express
+4. Mantenimos buena organización con GitHub Projects
+
+Qué mejorar
+
+1. Documentación del código: Necesitamos más comentarios explicativos
+3. Consistencia de estilos: Mejorar guía de estilos compartida
+
+Logros destacados
+
+- Estructura de proyecto clara y organizada
