@@ -1,0 +1,25 @@
+{
+  "name": "dpfs-katherine-segovia",
+  "version": "1.0.0",
+  "description": "E-commerce desarrollado con Node.js y Express para Digital House",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ecommerce",
+    "digitalhouse"
+  ],
+  "author": "Katherine Segovia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
