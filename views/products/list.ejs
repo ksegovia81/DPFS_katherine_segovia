@@ -1,0 +1,19 @@
+<%- include('../partials/head', { title: 'Productos disponibles' }) %>
+<%- include('../partials/header', { user, cartCount }) %>
+
+<main class="container my-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Productos disponibles</h1>
+        <% if (user && user.isAdmin) { %>
+            <a href="/products/create" class="btn btn-success">Agregar producto</a>
+        <% } %>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <% products.forEach(product => { %>
+            <%- include('../partials/product-card', { product }) %>
+        <% }); %>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>
